@@ -1,0 +1,8 @@
+.idea/
+dist/
+node_modules/
+src/bower_components/
+src/semantic/
+
+.DS_Store
+npm-debug.log

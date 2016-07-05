@@ -1,0 +1,27 @@
+/*******************************
+ Index Page CSS
+*******************************/
+
+/*--------------
+ Navigation Menu
+---------------*/
+
+#index .ui.vertical.menu .header.item {
+    background: #F5F5F5;
+    font-size: 0.9em;
+}
+
+#index .ui.vertical.menu a.sub-link {
+    margin: 0 10px;
+    color: #333333;
+}
+
+/*--------------
+ Ad Image
+---------------*/
+
+#index .ui.ad.image > img {
+    min-width: 838px;
+    width: 100%;
+    height: 303px;
+}

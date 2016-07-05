@@ -1,0 +1,53 @@
+/*******************************
+     User Global Variables
+*******************************/
+
+/*-------------------
+ Fonts
+--------------------*/
+
+@fontName: 'Helvetica Neue';
+@fontSmoothing: antialiased;
+
+@headerFont: @fontName, Arial, Helvetica, sans-serif;
+@pageFont: @fontName, Arial, Helvetica, sans-serif;
+
+@importGoogleFonts: false;
+
+
+/*-------------------
+ Base Sizes
+--------------------*/
+
+/* This is the single variable that controls them all */
+@emSize   : 13px;
+
+/* The size of page text  */
+@fontSize : 13px;
+
+/*-------------------
+ Page
+--------------------*/
+
+@pageBackground: #F5F5F5;
+@pageMinWidth: 1200px;
+@pageOverflowX: visible;
+
+/*-------------------
+ Breakpoints
+--------------------*/
+
+@mobileBreakpoint: 1200px;
+@tabletBreakpoint: 1200px;
+@computerBreakpoint: 1200px;
+@largeMonitorBreakpoint: 1200px;
+@widescreenMonitorBreakpoint: 1920px;
+
+/*-------------------
+ Border Radius
+--------------------*/
+
+@relativeBorderRadius: @relative2px;
+@absoluteBorderRadius: @2px;
+
+@defaultBorderRadius: @absoluteBorderRadius;

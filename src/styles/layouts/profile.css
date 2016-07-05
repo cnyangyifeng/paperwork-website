@@ -1,0 +1,7 @@
+/*******************************
+ Profile Page CSS
+*******************************/
+
+#profile .ui.form .field > label {
+    min-width: 64px;
+}

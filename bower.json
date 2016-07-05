@@ -1,0 +1,9 @@
+{
+  "name": "paperwork-website",
+  "description": "",
+  "homepage": "http://paperwork.store",
+  "dependencies": {
+    "jquery": "^3.0.0"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,31 @@
+/*******************************
+ Global CSS
+*******************************/
+
+/*-------------------
+ Page Header
+--------------------*/
+
+.page.header .ui.attached.menu {
+    height: 44px;
+}
+
+.page.header .ui.input input {
+    min-width: 300px;
+}
+
+/*-------------------
+ Page Content
+--------------------*/
+
+.page.content {
+    margin-top: 20px;
+}
+
+/*-------------------
+ Footer
+--------------------*/
+
+.footer .ui.list > a.item {
+    color: #333333;
+}

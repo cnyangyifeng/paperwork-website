@@ -1,0 +1,7 @@
+/*******************************
+ Account Page CSS
+*******************************/
+
+#account .ui.form .field > label {
+    min-width: 64px;
+}

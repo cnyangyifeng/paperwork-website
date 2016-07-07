@@ -2,3 +2,10 @@
  User Page CSS
 *******************************/
 
+#user .ui.form .field > label {
+    min-width: 64px;
+}
+
+#user .ui[class*="top attached"].menu {
+    height: 44px;
+}

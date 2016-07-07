@@ -1,11 +1,11 @@
 /*******************************
- Account Page CSS
+ Favorites Page CSS
 *******************************/
 
-#account .ui.form .field > label {
+#favorites .ui.form .field > label {
     min-width: 64px;
 }
 
-#account .ui[class*="top attached"].menu {
+#favorites .ui[class*="top attached"].menu {
     height: 44px;
 }

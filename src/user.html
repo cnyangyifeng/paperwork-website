@@ -17,7 +17,7 @@
 <div class="page header">
     <div class="ui attached menu">
         <div class="ui container">
-            <a class="header item" href="http://paperwork.store/">Paperwork.Store</a>
+            <a class="header item" href="index.html">Paperwork.Store</a>
             <div class="ui category search item">
                 <div class="ui transparent icon input">
                     <input class="prompt" type="text" placeholder="搜索资源、作者">
@@ -28,7 +28,7 @@
             <a class="item" href="index.html">首页</a>
             <a class="item" href="explore.html">发现</a>
             <div class="right menu">
-                <a class="item" href="user.html">我的主页</a>
+                <a class="active item" href="user.html">我的主页</a>
                 <a class="item" href="profile.html">设置</a>
                 <a class="item" href="login.html">退出</a>
             </div>
@@ -36,9 +36,27 @@
     </div>
 </div>
 <div class="page content">
-    <div class="ui grid container">
-        <div class="column">
-            <div class="ui segment">
+    <div class="ui container">
+        <div class="ui top attached menu">
+            <a class="active item" href="user.html">我的主页</a>
+            <a class="item" href="favorites.html">我的收藏 <div class="ui black small basic label">24</div></a>
+            <a class="item" href="downloads.html">我的下载 <div class="ui black small basic label">8</div></a>
+        </div>
+        <div class="ui bottom attached segment">
+            <div class="ui form">
+                <div class="inline field">
+                    <label class="">姓名</label>
+                    <input type="text" placeholder="姓名"/>
+                </div>
+                <div class="ui divider"></div>
+                <div class="inline field">
+                    <label class="">个性域名</label>
+                    <input type="text" placeholder="域名"/>
+                </div>
+                <div class="ui divider"></div>
+                <div class="inline field">
+                    <button class="ui primary button">保存</button>
+                </div>
             </div>
         </div>
     </div>

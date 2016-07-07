@@ -29,3 +29,11 @@
 .footer .ui.list > a.item {
     color: #333333;
 }
+
+.price {
+    color: #F2711C;
+}
+
+.big.price {
+    font-size: 24px;
+}

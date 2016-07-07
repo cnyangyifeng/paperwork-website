@@ -5,3 +5,8 @@
 #profile .ui.form .field > label {
     min-width: 64px;
 }
+
+#profile .ui[class*="top attached"].menu {
+    height: 44px;
+}
+

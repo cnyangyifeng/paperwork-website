@@ -20,10 +20,10 @@
 --------------------*/
 
 /* This is the single variable that controls them all */
-@emSize   : 13px;
+@emSize   : 14px;
 
 /* The size of page text  */
-@fontSize : 13px;
+@fontSize : 14px;
 
 /*-------------------
  Page
@@ -31,7 +31,7 @@
 
 @pageBackground: #F5F5F5;
 @pageMinWidth: 1200px;
-@pageOverflowX: visible;
+@pageOverflowX: hidden;
 
 /*-------------------
  Breakpoints

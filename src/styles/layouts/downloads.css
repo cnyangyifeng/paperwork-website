@@ -1,11 +1,11 @@
 /*******************************
- Account Page CSS
+ Downloads Page CSS
 *******************************/
 
-#account .ui.form .field > label {
+#downloads .ui.form .field > label {
     min-width: 64px;
 }
 
-#account .ui[class*="top attached"].menu {
+#downloads .ui[class*="top attached"].menu {
     height: 44px;
 }

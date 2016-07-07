@@ -6,9 +6,15 @@
  Navigation Menu
 ---------------*/
 
+#index .ui.vertical.menu {
+    height: 360px;
+}
+
 #index .ui.vertical.menu .header.item {
     background: #F5F5F5;
-    font-size: 0.9em;
+    color: #666666;
+    font-weight: normal;
+    font-size: 1em;
 }
 
 #index .ui.vertical.menu a.sub-link {
@@ -16,12 +22,29 @@
     color: #333333;
 }
 
+#index .ui.vertical.menu a.sub-link:hover {
+    color: #2185D0;
+}
+
 /*--------------
  Ad Image
 ---------------*/
 
-#index .ui.ad.image > img {
-    min-width: 838px;
+#index .ui.ad.image {
     width: 100%;
-    height: 303px;
+}
+
+#index .ui.ad.image > img {
+    width: 100%;
+    min-width: 800px;
+    height: 360px;
+}
+
+/*--------------
+ Header
+---------------*/
+
+#index .ui.header {
+    font-size: 1em;
+    font-weight: normal;
 }

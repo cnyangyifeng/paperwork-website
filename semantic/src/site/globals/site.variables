@@ -33,6 +33,12 @@
 @pageMinWidth: 1200px;
 @pageOverflowX: hidden;
 
+/*--------------
+  Page Heading
+---------------*/
+
+@headerFontWeight : normal;
+
 /*-------------------
  Breakpoints
 --------------------*/

@@ -1,3 +1,8 @@
 /*******************************
          Site Overrides
 *******************************/
+
+/* Link */
+.ui.breadcrumb a {
+    color: @textColor;
+}

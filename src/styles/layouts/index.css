@@ -41,10 +41,10 @@
 }
 
 /*--------------
- Header
+ UI Header
 ---------------*/
 
-#index .ui.header {
-    font-size: 1em;
+#index .ui.card .header {
     font-weight: normal;
+    font-size: 1em;
 }
